@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container" style="max-width: 400px">
     <div class="alert alert-primary">
-      <h1 class="alert alert-success fw-bold">How fast can you catch me?</h1>
+      <h3 class="alert alert-success fw-bold">How fast can you catch me?</h3>
       <button
         class="btn btn-outline-success fw-bold"
         :disabled="isPlaying"
